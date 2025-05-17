@@ -16,7 +16,6 @@ const Countries = ({searchTerm, region}) => { // a functional component
     useEffect(() => { // useEffect runs fetchCountryData() only once, when the component first mounts.
         fetchCountryData();
     }, []);  // [] dependency array means "run this effect only once". like saying: "When this component first appears on screen, fetch the countries."
-
     
   return ( // Returns the JSX UI — the HTML-like syntax that React renders.
     <>

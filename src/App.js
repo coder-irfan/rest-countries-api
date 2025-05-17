@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';  // useEffect => performing side effects in functional components like fetching data and updating DOM. useState => manage state like storing values eg: whether the dark mode in on.
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'; // importing routing system from react-router-dom. helps manage navigation (URLs) in your app.
+import {HashRouter as Router, Route, Routes} from 'react-router-dom'; // importing routing system from react-router-dom. helps manage navigation (URLs) in your app.
 import Header from './components/Header';
 import Filter from './components/Filter';
 import Countries from './components/Countries';
